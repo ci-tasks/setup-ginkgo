@@ -1,0 +1,10 @@
+name: 'Setup Ginkgo environment'
+description: 'Setup a Ginkgo environment and add it to the PATH'
+author: 'Svetlin Ralchev'
+inputs:
+  ginkgo-version:
+    description: 'The Ginkgo version to download (if necessery) and use. Supports semver spec and ranges. Be suer to enclose this option in single quotation marks.'
+    default: 'latest'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
