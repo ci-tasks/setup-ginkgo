@@ -1,13 +1,25 @@
 # setup-ginkgo
 
-[![Continuous Integration](https://github.com/ci-tasks/setup-ginkgo/actions/workflows/test.yml/badge.svg)](https://github.com/ci-tasks/setup-ginkgo/actions/workflows/test.yml)
+<!-- action-docs-description -->
+## Description
 
-GitHub Action that sets up [Ginkgo](https://github.com/onsi/ginkgo) CLI in your GitHub Actions workflow by:
+Setup a Ginkgo environment and add it to the PATH
+<!-- action-docs-description -->
 
-## Usage
+<!-- action-docs-inputs -->
+## Inputs
 
-```yaml
-uses: ci-tasks/setup-ginkgo@main
-with:
-  ginkgo-version: 'v2.9.2'
-```
+| parameter | description | required | default |
+| --- | --- | --- | --- |
+| ginkgo-version | The Ginkgo version to download (if necessery) and use. Supports semver spec and ranges. Be suer to enclose this option in single quotation marks. | `false` | latest |
+<!-- action-docs-inputs -->
+
+<!-- action-docs-outputs -->
+
+<!-- action-docs-outputs -->
+
+<!-- action-docs-runs -->
+## Runs
+
+This action is a `node16` action.
+<!-- action-docs-runs -->
