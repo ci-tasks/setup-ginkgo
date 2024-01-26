@@ -21,5 +21,5 @@ Setup a Ginkgo environment and add it to the PATH
 <!-- action-docs-runs -->
 ## Runs
 
-This action is a `node16` action.
+This action is a `node20` action.
 <!-- action-docs-runs -->
